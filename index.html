@@ -4,7 +4,7 @@
     <title>Fortune Teller</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
   </head>
   <body>
@@ -15,21 +15,26 @@
       <form id="form1">
         <div class="events-list">
           <p>Check all that apply:</p>
-          <input type="checkbox" name="events" value="value1">You like working from home.<br>
-          <input type="checkbox" name="events" value="value2">You like explaining concepts.<br>
-          <input type="checkbox" name="events" value="value3">You like working with your hands.<br>
-          <input type="checkbox" name="events" value="value1">You enjoy working with computers.<br>
-          <input type="checkbox" name="events" value="value2">You enjoy being a leader.<br>
-          <input type="checkbox" name="events" value="value3">You enjoy good food.<br>
-          <input type="checkbox" name="events" value="value1">You think with logical arguments.<br>
-          <input type="checkbox" name="events" value="value2">You think with provided material.<br>
-          <input type="checkbox" name="events" value="value3">You think with procedures.<br>
+          <input type="checkbox" name="events" value="coder">You like working from home.<br>
+          <input type="checkbox" name="events" value="teacher">You like explaining concepts.<br>
+          <input type="checkbox" name="events" value="cook">You like working with your hands.<br>
+          <input type="checkbox" name="events" value="coder">You enjoy working with computers.<br>
+          <input type="checkbox" name="events" value="teacher">You enjoy being a leader.<br>
+          <input type="checkbox" name="events" value="cook">You enjoy good food.<br>
+          <input type="checkbox" name="events" value="coder">You think with logical arguments.<br>
+          <input type="checkbox" name="events" value="teacher">You think with provided material.<br>
+          <input type="checkbox" name="events" value="cook">You think with procedures.<br>
         </div>
+        <div class="button">
           <button type="submit" class="btn btn-outline-primary">Submit</button>
+        </div>
       </form>
-      <span id="coder">You got coder!</span>
-      <span id="teacher">You got teacher!</span>
-      <span id="cook">You got cook!</span>
+      <span id="coder">You got coder!
+      <img src="img/coder.jpg" alt="coder"></span>
+      <span id="teacher">You got teacher!
+      <img src="img/teacher.jpg" alt="teacher"></span>
+      <span id="cook">You got cook!
+      <img src="img/cook.jpg" alt="cook"></span>
     </div>
   </body>
 </html>
